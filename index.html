@@ -1,0 +1,25 @@
+<!doctype html> 
+<html lang="en"> 
+<head>
+  <link rel="stylesheet" href="simply-multiselect.css" />
+  <script src="jquery-1.2.6.pack.js" type="text/javascript"></script>
+  <script src="simply-multiselect.js" type="text/javascript"></script>
+  <script>
+	$(function(){
+		var getValue = $("#select").simplyMultiSelect({
+			'open': 'Buka',
+			'close': 'Tutup',
+			'name': 'pilih',
+			'title': 'Pilih Yang Banyak',
+			'element': 'elementPilih',
+			'value': [1,2,3,4,5,6],
+			'label': ["satu","dua","tiga","empat","lima","enam"],
+			'checked': [2,3,4]
+		});
+	})
+  </script>
+</head>
+<body>
+	<div id="select"></div>
+</body>
+</html>

@@ -1,0 +1,43 @@
+.simply-multiSelect{
+	background-color: #F9F9F9 !important;
+	width: 350px;
+}
+.simply-multiSelect-area{
+    padding: 5px 10px 5px 5px;
+}
+.simply-multiSelect-row{
+	background-color: #F9F9F9 !important;
+	padding-bottom: 33px;
+    padding-right: 10px;
+    display: none;
+    position: absolute;
+    height: 100px;
+	width: 340px;
+}
+.simply-multiSelect-item{
+    height: 100px;
+    overflow: auto;
+}
+.simply-multiSelect-item ul{
+	list-style: none;
+	padding: 0;
+}
+.simply-multiSelect-close{
+	float: right;
+    padding-top: 5px;
+}
+.simply-multiSelect-close, .simply-multiselect-open{
+	float: right;
+}
+.simply-multiSelect-chk{
+    padding-top: 10px;
+	float: left;
+	padding-left: 3px;
+	font-size: 12px;
+	font-weight: bold;
+	font-family: arial;
+}
+.simply-multiSelect-chk a:link{
+	text-decoration: none;
+}
+
